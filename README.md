@@ -8,7 +8,7 @@
 
 *Save the Federation from the rebels and travel faster than light.*
 
-[![Play now](https://img.shields.io/badge/▶_PLAY_NOW-in_your_browser-e8542a?style=for-the-badge)](https://USERNAME.github.io/ftldemo/)
+[![Play now](https://img.shields.io/badge/▶_PLAY_NOW-in_your_browser-e8542a?style=for-the-badge)]([https://USERNAME.github.io/ftldemo/](https://rgc.zone/ports/ftldemo/index.html))
 
 ![Emscripten](https://img.shields.io/badge/Emscripten-asm.js-4b8bbe?style=flat-square)
 ![WebGL](https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white)
@@ -45,7 +45,7 @@ This is the browser demo released by Humble Bundle together with Mozilla in Octo
 
 ### Online
 
-Just open **[USERNAME.github.io/ftldemo](https://USERNAME.github.io/ftldemo/)**.
+Just open **[USERNAME.github.io/ftldemo](https://rgc.zone/ports/ftldemo/index.html)**.
 
 ### Locally
 
