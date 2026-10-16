@@ -2,54 +2,54 @@
 
 <img src="ftlicon.png" alt="FTL: Faster Than Light" width="200">
 
-# FTL: Faster Than Light — браузерная демо-версия
+# FTL: Faster Than Light — Browser Demo
 
-**Официальная демо-версия FTL, которая запускается прямо в браузере — без установки и плагинов.**
+**The official FTL demo that runs right in your browser — no installs, no plugins.**
 
-*Спасите Федерацию от повстанцев и прыгайте быстрее света.*
+*Save the Federation from the rebels and travel faster than light.*
 
-[![Играть](https://img.shields.io/badge/▶_ИГРАТЬ-в_браузере-e8542a?style=for-the-badge)](https://USERNAME.github.io/ftldemo/)
+[![Play now](https://img.shields.io/badge/▶_PLAY_NOW-in_your_browser-e8542a?style=for-the-badge)](https://USERNAME.github.io/ftldemo/)
 
 ![Emscripten](https://img.shields.io/badge/Emscripten-asm.js-4b8bbe?style=flat-square)
 ![WebGL](https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white)
-![Год сборки](https://img.shields.io/badge/сборка-2014-555?style=flat-square)
-![Размер](https://img.shields.io/badge/размер-~200_МБ-555?style=flat-square)
-![Разработчик](https://img.shields.io/badge/by-Subset_Games-2b2b2b?style=flat-square)
+![Build year](https://img.shields.io/badge/build-2014-555?style=flat-square)
+![Size](https://img.shields.io/badge/size-~200_MB-555?style=flat-square)
+![Developer](https://img.shields.io/badge/by-Subset_Games-2b2b2b?style=flat-square)
 
 </div>
 
 ---
 
-## 🚀 Об игре
+## 🚀 About the game
 
-**FTL: Faster Than Light** — «космический симулятор-рогалик» от Subset Games. Вы командуете кораблём Федерации, который несёт важные данные через случайно сгенерированную галактику, а по пятам идёт флот повстанцев. Каждый прыжок — новая встреча, каждое решение может стать последним.
+**FTL: Faster Than Light** is a "spaceship simulation roguelike-like" by Subset Games. You command a Federation ship carrying vital data through a randomly generated galaxy, with the rebel fleet hot on your heels. Every jump brings a new encounter, and every decision could be your last.
 
 | | |
 |---|---|
-| 🧠 **Стратегия в реальном времени** | Отдавайте приказы экипажу, распределяйте энергию между системами и выбирайте цели для оружия прямо в бою. |
-| ⏸️ **Играйте в своём темпе** | Ставьте игру на паузу посреди сражения, чтобы спокойно продумать тактику. |
-| 👽 **Инопланетные расы** | Улучшайте корабль и открывайте новые с помощью разных инопланетных рас. |
-| 📜 **Сотни событий** | Текстовые встречи заставляют принимать непростые решения. |
-| 🌌 **Случайная галактика** | Враги, события и последствия каждый раз разные — двух одинаковых прохождений не бывает. |
-| 💀 **Без второго шанса** | Permadeath: погибли — начинайте заново. |
+| 🧠 **Complex strategic gameplay** | Give orders to your crew, manage ship power distribution and choose weapon targets in the heat of battle. |
+| ⏸️ **Play at your own speed** | Pause mid-combat to evaluate your strategy and give orders. |
+| 👽 **Unique lifeforms and technology** | Upgrade your ship and unlock new ones with the help of diverse alien races. |
+| 📜 **Be the captain you want** | Hundreds of text-based encounters force you to make tough decisions. |
+| 🌌 **Randomized galaxy** | Different enemies, events and outcomes every run — no two playthroughs are the same. |
+| 💀 **No second chances** | Permadeath: when you die, there's no coming back. |
 
-## 🕹️ О сборке
+## 🕹️ About this build
 
-Это та самая браузерная демо-версия, которую Humble Bundle выпустил в октябре 2014 года вместе с Mozilla: оригинальная игра на C++, скомпилированная в **asm.js** через **Emscripten**. Работает в любом современном браузере с поддержкой WebGL.
+This is the browser demo released by Humble Bundle together with Mozilla in October 2014: the original C++ game compiled to **asm.js** with **Emscripten**. It runs in any modern browser with WebGL support.
 
-- 🎵 34 трека саундтрека **Ben Prunty** в формате OGG
-- 🖥️ Полноэкранный режим с корректным масштабированием
-- 🔒 Демо-режим: по окончании пробной части игра предложит купить полную версию
+- 🎵 34 soundtrack tracks by **Ben Prunty** in OGG format
+- 🖥️ Fullscreen mode with proper scaling
+- 🔒 Demo mode: once the trial section ends, the game offers to buy the full version
 
-## ▶️ Как запустить
+## ▶️ How to play
 
-### Онлайн
+### Online
 
-Просто откройте **[USERNAME.github.io/ftldemo](https://USERNAME.github.io/ftldemo/)**.
+Just open **[USERNAME.github.io/ftldemo](https://USERNAME.github.io/ftldemo/)**.
 
-### Локально
+### Locally
 
-Игра загружает свои данные через XHR, поэтому `index.html`, открытый двойным щелчком (`file://`), работать не будет — нужен любой локальный веб-сервер:
+The game loads its data via XHR, so opening `index.html` directly from disk (`file://`) won't work — you need any local web server:
 
 ```bash
 git clone https://github.com/USERNAME/ftldemo.git
@@ -57,47 +57,47 @@ cd ftldemo
 python -m http.server 8000
 ```
 
-Затем откройте <http://localhost:8000> в браузере.
+Then open <http://localhost:8000> in your browser.
 
-### Свой GitHub Pages
+### Host your own copy on GitHub Pages
 
-1. Сделайте форк репозитория.
-2. **Settings → Pages → Source:** `Deploy from a branch`, ветка `main`, папка `/ (root)`.
-3. Через пару минут игра будет доступна по адресу `https://<ваш-ник>.github.io/ftldemo/`.
+1. Fork this repository.
+2. Go to **Settings → Pages → Source:** `Deploy from a branch`, branch `main`, folder `/ (root)`.
+3. After a couple of minutes the game will be live at `https://<your-username>.github.io/ftldemo/`.
 
-## 📁 Структура проекта
+## 📁 Project structure
 
 ```
 ftldemo/
-├── index.html                    # страница-плеер
-├── FTL-1413323248.js             # движок игры (asm.js)
-├── FTL-1413323248.js.mem         # начальная память
-├── FTL-1413323248.data           # графика и игровые данные (~54 МБ)
-├── FTL-audio-1413323248.data     # звуковые эффекты (~12 МБ)
-├── music/                        # саундтрек, 34 × .ogg (~130 МБ)
-├── main.min.js, 19d6f4….js       # загрузчик и плеер Humble
-├── *.css, *.woff2, *.svg, *.png  # стили, шрифты и иконки интерфейса
-└── ftlicon.png                   # иконка
+├── index.html                    # player page
+├── FTL-1413323248.js             # game engine (asm.js)
+├── FTL-1413323248.js.mem         # initial memory image
+├── FTL-1413323248.data           # graphics and game data (~54 MB)
+├── FTL-audio-1413323248.data     # sound effects (~12 MB)
+├── music/                        # soundtrack, 34 × .ogg (~130 MB)
+├── main.min.js, 19d6f4….js       # Humble loader and player
+├── *.css, *.woff2, *.svg, *.png  # UI styles, fonts and icons
+└── ftlicon.png                   # icon
 ```
 
-## 💻 Требования
+## 💻 Requirements
 
-- Браузер с поддержкой WebGL: Chrome, Firefox, Edge, Safari (актуальные версии)
-- ~200 МБ трафика при первом запуске
-- Мышь и клавиатура
+- A browser with WebGL support: Chrome, Firefox, Edge or Safari (recent versions)
+- ~200 MB download on first launch
+- Mouse and keyboard
 
-## ⚖️ Правовая информация
+## ⚖️ Legal
 
-**FTL: Faster Than Light** © [Subset Games](https://subsetgames.com/). Все права на игру, графику, музыку и торговые марки принадлежат их владельцам. Браузерная демо-версия распространялась бесплатно через Humble Bundle.
+**FTL: Faster Than Light** © [Subset Games](https://subsetgames.com/). All rights to the game, artwork, music and trademarks belong to their respective owners. The browser demo was distributed for free by Humble Bundle.
 
-Репозиторий не связан с Subset Games и Humble Bundle и не одобрен ими. Если игра понравилась — поддержите разработчиков и купите полную версию **FTL: Advanced Edition**:
+This repository is not affiliated with or endorsed by Subset Games or Humble Bundle. If you enjoy the game, please support the developers and buy the full **FTL: Advanced Edition**:
 
 <div align="center">
 
-[![Steam](https://img.shields.io/badge/Steam-купить-1b2838?style=for-the-badge&logo=steam&logoColor=white)](https://store.steampowered.com/app/212680/)
-[![GOG](https://img.shields.io/badge/GOG-купить-86328a?style=for-the-badge&logo=gogdotcom&logoColor=white)](https://www.gog.com/game/faster_than_light)
-[![Humble](https://img.shields.io/badge/Humble-купить-cc2929?style=for-the-badge&logo=humblebundle&logoColor=white)](https://www.humblebundle.com/store/ftlfasterthanlight)
+[![Steam](https://img.shields.io/badge/Steam-buy-1b2838?style=for-the-badge&logo=steam&logoColor=white)](https://store.steampowered.com/app/212680/)
+[![GOG](https://img.shields.io/badge/GOG-buy-86328a?style=for-the-badge&logo=gogdotcom&logoColor=white)](https://www.gog.com/game/faster_than_light)
+[![Humble](https://img.shields.io/badge/Humble-buy-cc2929?style=for-the-badge&logo=humblebundle&logoColor=white)](https://www.humblebundle.com/store/ftlfasterthanlight)
 
-<sub>Сделано с ❤️ для любителей космоса</sub>
+<sub>Made with ❤️ for space captains everywhere</sub>
 
 </div>
